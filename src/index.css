@@ -58,21 +58,21 @@
   
   .section-title::before {
     content: "";
-    @apply w-12 h-[1px] md:w-24 bg-portfolio-baby-blue mr-6;
+    @apply w-12 h-[1px] md:w-24 bg-portfolio-baby-pink mr-6;
   }
   
   .section-title::after {
     content: "";
-    @apply w-12 h-[1px] md:w-24 bg-portfolio-baby-blue ml-6;
+    @apply w-12 h-[1px] md:w-24 bg-portfolio-baby-pink ml-6;
   }
   
   .nav-link {
-    @apply relative overflow-hidden text-portfolio-light-slate hover:text-portfolio-baby-blue transition-colors duration-300 ease-in-out px-5 py-2;
+    @apply relative overflow-hidden text-portfolio-light-slate hover:text-portfolio-purple transition-colors duration-300 ease-in-out px-5 py-2;
   }
   
   .nav-link::after {
     content: "";
-    @apply absolute bottom-0 left-0 w-full h-0.5 bg-portfolio-baby-blue transform scale-x-0 transition-transform duration-300 ease-in-out;
+    @apply absolute bottom-0 left-0 w-full h-0.5 bg-portfolio-purple transform scale-x-0 transition-transform duration-300 ease-in-out;
   }
   
   .nav-link:hover::after {
@@ -80,11 +80,11 @@
   }
   
   .glass-card {
-    @apply bg-portfolio-navy/80 backdrop-blur-md border border-portfolio-baby-blue/10 shadow-lg rounded-lg overflow-hidden;
+    @apply bg-portfolio-navy/80 backdrop-blur-md border border-portfolio-purple/10 shadow-lg rounded-lg overflow-hidden;
   }
   
   .social-icon {
-    @apply flex items-center justify-center w-12 h-12 rounded-full text-portfolio-light-slate bg-portfolio-navy hover:text-portfolio-baby-blue hover:bg-portfolio-navy/50 transition-all duration-300 border border-portfolio-baby-blue/20;
+    @apply flex items-center justify-center w-12 h-12 rounded-full text-portfolio-light-slate bg-portfolio-navy hover:text-portfolio-purple hover:bg-portfolio-navy/50 transition-all duration-300 border border-portfolio-purple/20;
   }
   
   .project-card {
@@ -92,7 +92,7 @@
   }
   
   .technology-pill {
-    @apply px-3 py-1 text-xs rounded-full bg-portfolio-baby-blue/10 text-portfolio-baby-blue border border-portfolio-baby-blue/20;
+    @apply px-3 py-1 text-xs rounded-full bg-portfolio-purple/10 text-portfolio-baby-pink border border-portfolio-purple/20;
   }
 }
 
@@ -110,7 +110,7 @@
   }
 
   ::selection {
-    @apply bg-portfolio-baby-blue/30 text-portfolio-white;
+    @apply bg-portfolio-purple/30 text-portfolio-white;
   }
 }
 
