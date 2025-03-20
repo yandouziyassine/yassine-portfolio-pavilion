@@ -81,7 +81,7 @@ const Projects = () => {
                 className={cn(
                   "px-4 py-2 rounded-md text-sm font-medium transition-all duration-300",
                   activeCategory === category 
-                    ? "bg-portfolio-baby-blue text-portfolio-navy" 
+                    ? "bg-portfolio-purple text-portfolio-navy" 
                     : "bg-portfolio-navy/50 text-portfolio-light-slate hover:bg-portfolio-navy/80"
                 )}
                 onClick={() => setActiveCategory(category)}

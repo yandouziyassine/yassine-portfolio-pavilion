@@ -57,7 +57,8 @@ export default {
 					'dark-blue': '#0A192F',
 					'navy': '#020C1B',
 					'light-slate': '#8892B0',
-					'baby-blue': '#64FFDA',
+					'baby-pink': '#E5B8F4', // Changed from baby-blue to baby-pink
+					'purple': '#9B87F5',    // Added purple color
 					'white': '#FFFFFF',
 				},
 				sidebar: {

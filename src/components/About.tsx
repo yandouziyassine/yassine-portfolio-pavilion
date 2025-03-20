@@ -60,7 +60,7 @@ const About = () => {
             <div className="space-y-6">
               {skills.map((skillGroup, groupIndex) => (
                 <div key={groupIndex} className="space-y-3">
-                  <h4 className="text-portfolio-baby-blue font-medium">{skillGroup.category}</h4>
+                  <h4 className="text-portfolio-purple font-medium">{skillGroup.category}</h4>
                   <div className="flex flex-wrap gap-2">
                     {skillGroup.items.map((skill, skillIndex) => (
                       <span 

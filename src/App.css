@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -12,10 +13,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #9B87F5aa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #9B87F5aa);
 }
 
 @keyframes logo-spin {
@@ -39,4 +40,33 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.technology-pill {
+  @apply bg-portfolio-navy px-3 py-1 text-xs rounded-full text-portfolio-baby-pink border border-portfolio-purple/20;
+}
+
+.nav-link {
+  @apply px-4 py-2 text-portfolio-light-slate hover:text-portfolio-purple transition-colors;
+}
+
+.section {
+  @apply py-16 md:py-24 scroll-mt-24;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-16 text-center text-portfolio-white relative;
+}
+
+.section-title::after {
+  content: '';
+  @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-portfolio-purple rounded-full -bottom-4;
+}
+
+.glass-card {
+  @apply bg-portfolio-navy/50 backdrop-blur-lg border border-portfolio-white/5 rounded-lg shadow-lg;
+}
+
+.heading-1 {
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight;
 }

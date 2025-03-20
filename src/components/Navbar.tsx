@@ -53,7 +53,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <a 
           href="#home" 
-          className="text-portfolio-white text-2xl font-bold hover:text-portfolio-baby-blue transition-colors"
+          className="text-portfolio-white text-2xl font-bold hover:text-portfolio-baby-pink transition-colors"
           onClick={(e) => {
             e.preventDefault();
             scrollToSection('home');
@@ -70,7 +70,7 @@ const Navbar = () => {
               href={`#${link.id}`}
               className={cn(
                 "nav-link",
-                activeSection === link.id && "text-portfolio-baby-blue"
+                activeSection === link.id && "text-portfolio-purple"
               )}
               onClick={(e) => {
                 e.preventDefault();
@@ -113,7 +113,7 @@ const Navbar = () => {
               <a
                 key={link.id}
                 href={`#${link.id}`}
-                className="text-portfolio-white text-2xl hover:text-portfolio-baby-blue transition-colors duration-300"
+                className="text-portfolio-white text-2xl hover:text-portfolio-purple transition-colors duration-300"
                 onClick={(e) => {
                   e.preventDefault();
                   scrollToSection(link.id);

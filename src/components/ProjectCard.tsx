@@ -44,7 +44,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, isVisible }) 
             Project Image
           </div>
         )}
-        <span className="absolute top-3 left-3 px-3 py-1 text-xs rounded-full bg-portfolio-baby-blue/80 text-portfolio-navy backdrop-blur-sm font-medium">
+        <span className="absolute top-3 left-3 px-3 py-1 text-xs rounded-full bg-portfolio-baby-pink/80 text-portfolio-navy backdrop-blur-sm font-medium">
           {category}
         </span>
       </div>
@@ -65,7 +65,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, isVisible }) 
               href={github} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center text-portfolio-light-slate hover:text-portfolio-baby-blue transition-colors"
+              className="flex items-center text-portfolio-light-slate hover:text-portfolio-purple transition-colors"
               aria-label="GitHub Repository"
             >
               <Github size={18} className="mr-2" />
@@ -77,7 +77,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, isVisible }) 
               href={liveDemo} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center text-portfolio-light-slate hover:text-portfolio-baby-blue transition-colors"
+              className="flex items-center text-portfolio-light-slate hover:text-portfolio-purple transition-colors"
               aria-label="Live Demo"
             >
               <ExternalLink size={18} className="mr-2" />
